@@ -3,10 +3,10 @@ CoderDojoScriptCraft
 
 ScriptCraft Documentation and Scripts for CoderDojo Belgium
 
-### Installatie
+### Online Docs
 
 http://geenentijd.github.io/CoderDojoScriptCraft/
 
 ### Repo
 
-Deze repository bundelt alle script en documenten die met de server worden gepackaged.
+Deze repository is een verzameling van scripts en documenten die met de server worden gepackaged.
