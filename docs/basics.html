@@ -8,34 +8,28 @@
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Coderdojoscriptcraft</title>
+    <title>Coderdojo - Scriptcraft</title>
 </head>
 
 <body>
 
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-            <h1 id="project_title">Coderdojo Scriptcraft</h1>
-            <h2 id="project_tagline">ScriptCraft Documentatie voor CoderDojo Belgium</h2>
+    <div class="wrapper">
+        <header>
+            <h1>Coderdojo Scriptcraft</h1>
 
-            <ul>
-                <li><a href="index.html">Installatie</a>
-                </li>
-                <li><a href="basics.html">Start met scripten</a>
-                </li>
-                <li><a href="advanced.html">Gevorderde</a>
-                </li>
-            </ul>
+            <p><a href="index.html">Installatie</a>
+            </p>
+            <p><a href="basics.html">Start met scripten</a>
+            </p>
+            <p><a href="materialen.html">Materialen</a>
+            </p>
+            <p><a href="advanced.html">Script Schrijven</a>
+            </p>
         </header>
-    </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-        <section id="main_content" class="inner">
+        <section>
 
-            <h3>
-<a name="starten-met-scripten" class="anchor" href="#starten-met-scripten"><span class="octicon octicon-link"></span></a>Starten met scripten</h3>
+            <h3>Starten met scripten</h3>
 
             <p>In het spel kan je scripts uitvoeren door op / te drukken. We moeten de server laten weten dat we een javascript commando willen ingeven daarom typen we /js gevolgd door ons commando.</p>
 
@@ -49,15 +43,13 @@
 
             <p>De gebruikernaam is je minecraft gebruikersnaam. Nu kan je het bovenstaande commando wel gebruiken.</p>
 
-            <h3>
-<a name="tekst" class="anchor" href="#tekst"><span class="octicon octicon-link"></span></a>Tekst</h3>
+            <h3>Tekst</h3>
 
             <p>Om tekst te tonen is er de functie echo. Op volgende manier kan je hallo zeggen:</p>
 
             <code>/js echo('Hallo')</code>
 
-            <h3>
-<a name="bouwstenen" class="anchor" href="#bouwstenen"><span class="octicon octicon-link"></span></a>Bouwstenen</h3>
+            <h3>Bouwstenen</h3>
 
             <p>Bouwen is belangrijk in Minecraft, er zijn verschillende vormen die je de computer kan laten bouwen. Eerst en vooral is er een box, dit maakt een kubus aan.</p>
 
@@ -71,12 +63,62 @@
 
             <code>/js box(5, 3, 3, 1)</code>
 
+            <p>Je kan ook een cylinder bouwen. Eerst geeft het materiaal, de straal en de hoogte mee.</p>
+
+            <code>/js cylinder(5, 5, 3)</code>
+
+            <p>Je kan ook een prism bouwen, deze zijn ideaal om daken mee te bouwen. Je geeft het materiaal, de breedte en de diepte mee.</p>
+
+            <code>/js prism(5, 4, 4)</code>
+
+            <p>Je hebt van elke component ook een holle versie, deze kan je oproepen door een 0 achter de naam te zetten.</p>
+
+            <code>box0(5, 10, 10, 10)</code>
+
+            <h3>Afbreken</h3>
+
+            <p>Je kan blokken afbreken door te bouwen met materiaal 0. Materiaal 0 is lucht.</p>
+
+            <h3>Bewegen</h3>
+
+            <p>Je moet kunnen bewegen om alle blokjes op de juiste plaats te zetten.</p>
+
+            <p>Up is omhoog in het engels, je moet het aantal stappen meegeven dat je naar boven wil, als je niets meegeeft dan ga je standaard één stap omhoog.</p>
+
+            <code>/js up(5)</code>
+
+            <p>Down is omlaag in het engels, je moet het aantal stappen meegeven dat je naar beneden wil, als je niets meegeeft dan ga je standaard één stap naar beneden.</p>
+
+            <code>/js down(5)</code>
+
+            <p>Left is links in het engels, je moet het aantal stappen meegeven dat je naar links wil, als je niets meegeeft dan ga je standaard één stap naar links.</p>
+
+            <code>/js left(5)</code>
+
+            <p>Right is rechts in het engels, je moet het aantal stappen meegeven dat je naar rechts wil, als je niets meegeeft dan ga je standaard één stap naar rechts.</p>
+
+            <code>/js right(5)</code>
+
+            <p>Forward is vooruit in het engels, je moet het aantal stappen meegeven dat je naar voor wil, als je niets meegeeft dan ga je standaard één stap naar voor.</p>
+
+            <code>/js fwd(5)</code>
+
+            <p>Back is achteruit in het engels, je moet het aantal stappen meegeven dat je naar achteruit wil, als je niets meegeeft dan ga je standaard één stap achteruit.</p>
+
+            <code>/js back(5)</code>
+
+            <p>Turn is draai in het engels, je moet het aantal keer meegeven dat je wil draaien, als je niets meegeeft dan draai je één keer. Je draait altijd naar rechts in een hoek van 90 graden.</p>
+
+            <code>/js turn(2)</code>
+
+            <h3>Alles aan elkaar</h3>
+
+            <p>Je kan alle bewegingen en bouw functies aan elkaar hangen.</p>
+
+            <code>/js up(1).box().fwd(3).box()</code>
 
         </section>
-    </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
         <footer class="inner">
             <p class="copyright">Coderdojo Scriptcraft door <a href="http://www.coderdojobelgium.be/">CoderDojo Belgium</a>
             </p>
