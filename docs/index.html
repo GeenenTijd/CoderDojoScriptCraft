@@ -2,126 +2,125 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="description" content="Coderdojo Scriptcraft : ScriptCraft Documentatie voor CoderDojo Belgium">
+	<meta charset='utf-8'>
+	<meta http-equiv="X-UA-Compatible" content="chrome=1">
+	<meta name="description" content="Coderdojo Scriptcraft : ScriptCraft Documentatie voor CoderDojo Belgium">
 
-    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+	<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>Coderdojo - Scriptcraft</title>
+	<title>Coderdojo - Scriptcraft</title>
 </head>
 
 <body>
 
-    <div class="wrapper">
-        <header class="inner">
-            <h1>Coderdojo Scriptcraft</h1>
+	<div class="wrapper">
+		<header class="inner">
+			<h1>Coderdojo Scriptcraft</h1>
 
-            <p><a href="index.html">Installatie</a>
-            </p>
-            <p><a href="basics.html">Start met scripten</a>
-            </p>
-            <p><a href="materialen.html">Materialen</a>
-            </p>
-            <p><a href="advanced.html">Script Schrijven</a>
-            </p>
-        </header>
+			<p><a href="index.html">Installatie</a>
+			</p>
+			<p><a href="basics.html">Start met scripten</a>
+			</p>
+			<p><a href="materialen.html">Materialen</a>
+			</p>
+			<p><a href="advanced.html">Script Schrijven</a>
+			</p>
+		</header>
 
-        <section id="main_content" class="inner">
-            <h3>CoderDojo Minecraft Server</h3>
+		<section id="main_content" class="inner">
+			<h3>CoderDojo Minecraft Server</h3>
 
-            <p>We gebruiken bij CoderDojo ScriptCraft een Minecraft mod om te bouwen en te modden in Minecraft. Als je hier thuis verder mee aan de slag wil moet je een server starten met de ScriptCraft mod.</p>
+			<p>We gebruiken bij CoderDojo ScriptCraft een Minecraft mod om te bouwen en te modden in Minecraft. Als je hier thuis verder mee aan de slag wil moet je een server starten met de ScriptCraft mod.</p>
 
-            <h3>Java installeren</h3>
+			<h3>Java installeren</h3>
 
-            <p>Kan je Minecraft opstarten dan heb je Java al op je computer. Je kan Java hier downloaden: <a href="http://www.java.com/nl/download/">http://www.java.com/nl/download/</a>
-            </p>
+			<p>Kan je Minecraft opstarten dan heb je Java al op je computer. Je kan Java hier downloaden: <a href="http://www.java.com/nl/download/">http://www.java.com/nl/download/</a>
+			</p>
 
-            <h3>Server downloaden</h3>
+			<h3>Server downloaden</h3>
 
-            <p>Download het server pakket op de volgende URL: <a href="http://glenngeenen.be/coderdojo/CoderDojoServer.zip">http://glenngeenen.be/coderdojo/CoderDojoServer.zip</a>
-            </p>
+			<p>Download het server pakket op de volgende URL: <a href="http://glenngeenen.be/coderdojo/CoderDojoServer.zip">http://glenngeenen.be/coderdojo/CoderDojoServer.zip</a>
+			</p>
 
-            <p>Je moet dit bestand uitpakken (dubbel klikken). In het MineCraftServer mapje zitten alle bestanden om de server te starten.</p>
+			<p>Je moet dit bestand uitpakken (dubbel klikken). In het MineCraftServer mapje zitten alle bestanden om de server te starten.</p>
 
-            <h3>Server starten Windows</h3>
+			<h3>Server starten Windows</h3>
 
-            <p>Dubbel klik op start.bat</p>
+			<p>Dubbel klik op start.bat</p>
 
-            <p>Wanneer Java niet kan worden gevonden gaat papa misschien moeten helpen:
-                <a href="http://www.java.com/nl/download/help/path.xml">http://www.java.com/nl/download/help/path.xml</a>
-            </p>
+			<p>Je mag het programma uitvoeren als de computer vraaft of dit mag. Op Windows vraagt de server of hij aan je netwerk mag, je mag dit toestaan.</p>
 
-            <p>Op Windows 8 kan je de volgende fout krijgen: ‘Error: could not open `C:\WINDOWS\jre\lib\amd64\jvm.cfg' Je kan dit oplossen door de map C:\Windows\jre te verwijderen.</p>
+			<h3>Server starten Mac</h3>
 
-            <p>Op Windows vraagt de server of hij aan je netwerk mag, je mag dit toestaan.</p>
+			<p>Open terminal and typ:</p>
 
-            <h3>Server starten Mac</h3>
+			<code>chmod a+x</code>
 
-            <p>Open terminal and typ:</p>
+			<p>Sleep het bestand start.command in het terminal venster. Zorg dat er een spatie staat tussen chmod a+x en de tekst erna en druk enter.</p>
 
-            <code>chmod a+x</code>
+			<p>Nu kan je dubbel klikken op start.command om de server te starten.</p>
 
-            <p>Sleep het bestand start.command in het terminal venster. Zorg dat er een spatie staat tussen chmod a+x en de tekst erna en druk enter.</p>
+			<h3>Server starten Linux</h3>
 
-            <p>Nu kan je dubbel klikken op start.command om de server te starten.</p>
+			<p>Open terminal en ga naar de CoderDojoServer folder. Typ:</p>
 
-            <h3>Server starten Linux</h3>
+			<code>chmod +x start.</code>
 
-            <p>Open terminal en ga naar de CoderDojoServer folder. Typ:</p>
+			<p>Start de server in de terminal:</p>
 
-            <code>chmod +x start.</code>
+			<code>./start.sh</code>
 
-            <p>Start de server in de terminal:</p>
+			<h3>Scriptcraft testen</h3>
 
-            <code>./start.sh</code>
+			<p>Wanneer alles gelukt is komt er 'test complete' of 'Done' te staan.</p>
 
-            <h3>Scriptcraft testen</h3>
+			<p>Je kan testen of de ScriptCraft mod werkt door het volgende te typen in het zwarte kadertje:</p>
 
-            <p>Wanneer alles gelukt is komt er 'test complete' of 'Done' te staan.</p>
+			<code>js 2+2</code>
 
-            <p>Je kan testen of de ScriptCraft mod werkt door het volgende te typen in het zwarte kadertje:</p>
+			<p>Je moet enter drukken om het commando uit te voeren. Dit zou als resultaat "4" moeten geven.</p>
 
-            <code>js 2+2</code>
+			<p>Zolang je het zwarte kadertje niet sluit blijft de server aanstaan. Je kan de server stoppen door stop te typen.</p>
 
-            <p>Je moet enter drukken om het commando uit te voeren. Dit zou als resultaat "4" moeten geven.</p>
+			<h3>Problemen?</h3>
 
-            <p>Zolang je het zwarte kadertje niet sluit blijft de server aanstaan. Je kan de server stoppen door stop te typen.</p>
+			<p>Problemen bij het starten? <a href="problems.html">Kijk hier voor een oplossing</a>
+			</p>
 
-            <h3>Verbinden met de server</h3>
+			<h3>Verbinden met de server</h3>
 
-            <p>De server gebruikt versie 1.7.10 van Minecraft. Om te kunnen verbinden met de server moet je dezelfde versie gebruiken.</p>
+			<p>De server gebruikt versie 1.7.10 van Minecraft. Om te kunnen verbinden met de server moet je dezelfde versie gebruiken.</p>
 
-            <p>We gaan een nieuw Profile aanmaken die dezelfde versie gebruikt als de server. Wanneer we Minecraft opstarten zien we New Profile links onderaan. We klikken hierop en geven het de naam CoderDojo. Een beetje lager zien we ‘Use version’. Voor use version selecteren we ‘release 1.7.10’. We zijn klaar en klikken op Save Profile.</p>
+			<p>We gaan een nieuw Profile aanmaken die dezelfde versie gebruikt als de server. Wanneer we Minecraft opstarten zien we New Profile links onderaan. We klikken hierop en geven het de naam CoderDojo. Een beetje lager zien we ‘Use version’. Voor use version selecteren we ‘release 1.7.10’. We zijn klaar en klikken op Save Profile.</p>
 
-            <p>Rechts onderaan staat jou gebruikersnaam, die ga je straks nodig hebben.</p>
+			<p>Rechts onderaan staat jou gebruikersnaam, die ga je straks nodig hebben.</p>
 
-            <p>Nu kiezen we het CoderDojo profile en starten het spel.</p>
+			<p>Nu kiezen we het CoderDojo profile en starten het spel.</p>
 
-            <p>We kiezen Multiplayer. Normaal zie je nu CoderDojo Server verschijnen. Indien niet kiezen we Add Server. We noemen het CoderDojo Server en Server Address is localhost. Wanneer we op done klikken zouden we de toegevoegde server moeten zien. Selecteer de CoderDojo server en klik op Connect Server.</p>
+			<p>We kiezen Multiplayer. Normaal zie je nu CoderDojo Server verschijnen. Indien niet kiezen we Add Server. We noemen het CoderDojo Server en Server Address is localhost. Wanneer we op done klikken zouden we de toegevoegde server moeten zien. Selecteer de CoderDojo server en klik op Connect Server.</p>
 
-            <h3>Starten met scripten</h3>
+			<h3>Starten met scripten</h3>
 
-            <p>In het spel kan je scripts uitvoeren door op / te drukken. We moeten de server laten weten dat we een javascript commando willen ingeven daarom typen we /js gevolgd door ons commando.</p>
+			<p>In het spel kan je scripts uitvoeren door op / te drukken. We moeten de server laten weten dat we een javascript commando willen ingeven daarom typen we /js gevolgd door ons commando.</p>
 
-            <p>Je kan dit testen door het volgende te typen:</p>
-            <code>/js 2+2</code>
-            <p>Dit zou 4.0 als resultaat moeten geven.</p>
+			<p>Je kan dit testen door het volgende te typen:</p>
+			<code>/js 2+2</code>
+			<p>Dit zou 4.0 als resultaat moeten geven.</p>
 
-            <p>Het kan zijn dat je nog geen toestemming hebt op de server. We kunnen deze toestemming geven door terug te gaan naar ons zwart server kadertje.</p>
+			<p>Het kan zijn dat je nog geen toestemming hebt op de server. We kunnen deze toestemming geven door terug te gaan naar ons zwart server kadertje.</p>
 
-            <p>Hier typen we:</p>
+			<p>Hier typen we:</p>
 
-            <code>op gebruikersnaam</code>
+			<code>op gebruikersnaam</code>
 
-            <p>Gebruik jou minecraft gebruikersnaam in plaats van gebruikersnaam. Nu kan je het bovenstaande commando wel gebruiken.</p>
-        </section>
+			<p>Gebruik jou minecraft gebruikersnaam in plaats van gebruikersnaam. Nu kan je het bovenstaande commando wel gebruiken.</p>
+		</section>
 
-        <footer class="inner">
-            <p class="copyright">Coderdojo Scriptcraft door <a href="http://www.coderdojobelgium.be/">CoderDojo Belgium</a>
-            </p>
-        </footer>
-    </div>
+		<footer class="inner">
+			<p class="copyright">Coderdojo Scriptcraft door <a href="http://www.coderdojobelgium.be/">CoderDojo Belgium</a>
+			</p>
+		</footer>
+	</div>
 
 </body>
 
